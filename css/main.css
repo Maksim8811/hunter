@@ -36,24 +36,18 @@ img {
   width: 100%;
   padding: 0 15px;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 60px;
   border-bottom: 2px solid #ffffff;
   background-color: #f5cfc4;
 }
 
 .header-link {
-  font-family: "Lobster Two", cursive;
+  font-family: "Lobster Two";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -102,8 +96,7 @@ img {
   background-color: #ffffff;
   border: 1px solid #f5cfc4;
   border-radius: 10px;
-  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cards-title {
@@ -125,8 +118,7 @@ img {
   padding: 20px;
   margin: 0 auto;
   border: 1px solid #f5cfc4;
-  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
 
@@ -150,8 +142,7 @@ img {
   color: #000000;
   border-radius: 4px;
   padding: 5px;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   font-family: "Lobster Two", cursive;
   font-style: normal;
   font-weight: 400;
@@ -161,7 +152,6 @@ img {
 }
 .hero-cards-link:hover, .hero-cards-link:focus {
   cursor: pointer;
-  -webkit-transition: 3500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 3500ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #ececec;
 }
@@ -216,8 +206,7 @@ img {
 
 .benefits-photo {
   border-radius: 10px;
-  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .benefits-text {
@@ -307,8 +296,7 @@ span {
   margin-bottom: 10px;
   padding: 10px 5px;
   background-color: #ececec;
-  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   font-family: "Lobster Two", cursive;
   font-style: normal;
@@ -324,14 +312,9 @@ span {
 }
 
 .cards-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: 1px solid red;
 }
 
