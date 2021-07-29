@@ -1,0 +1,63 @@
+.benefits-container {
+  width: 100%;
+  padding: 0 15px 20px 15px;
+  background-color: #f5cfc4;
+  //   background-color: #ececec;
+  border-bottom: 2px solid #fff;
+}
+
+.benefits-title {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: black;
+  text-align: center;
+
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.benefits-photo {
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.benefits-text {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+span {
+  color: #ececec;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  font-size: 20px;
+}
+
+.benefits-list {
+  margin-top: 20px;
+}
+
+.benefits-item {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+
+  letter-spacing: 0.03em;
+}

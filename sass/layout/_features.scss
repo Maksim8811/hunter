@@ -1,0 +1,37 @@
+.features-conteiner {
+  // border: 2px solid #f5cfc4;
+  // box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #f5cfc4,
+    #f5cfc4 10px,
+    #ffffff 10px,
+    #ffffff 20px
+  );
+}
+
+.features-title {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  text-align: center;
+  padding: 30px 15px 15px;
+}
+
+.features-text {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0 15px 30px;
+}

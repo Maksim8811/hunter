@@ -1,0 +1,72 @@
+.footer-container {
+  width: 100%;
+  padding: 0 15px;
+  background-color: #f5cfc4;
+}
+
+.footer-link {
+  display: block;
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #000000;
+
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  padding: 20px 0;
+}
+
+.footer-item-text {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer-contact {
+  display: block;
+  max-width: 185px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background-color: #ececec;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}

@@ -1,0 +1,95 @@
+.hero-container {
+  width: 100%;
+  padding: 0 15px 20px 15px;
+
+  background-color: #f5cfc4;
+}
+
+.hero-title {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: black;
+  text-align: center;
+
+  padding: 85px 0 25px;
+}
+
+.hero-cards-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.hero-cards-container {
+  background-color: #ffffff;
+  border: 1px solid #f5cfc4;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-cards-title {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  margin: 20px 0;
+}
+
+.hero-cards-img {
+  display: block;
+  width: 90px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #f5cfc4;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.hero-cards-text {
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin: 20px auto;
+}
+
+.hero-cards-link {
+  display: block;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto 20px;
+  background-color: #f5cfc4;
+  color: #000000;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Lobster Two", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    transition: 3500ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #ececec;
+  }
+}
